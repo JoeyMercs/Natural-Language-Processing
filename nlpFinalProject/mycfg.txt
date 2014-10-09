@@ -1,0 +1,208 @@
+#Modified CFG based on combinations of online sources and methods
+
+#TOPs
+TOP -> S
+TOP -> SQ
+TOP -> FRAG
+
+#Clause types
+S -> VP
+S -> NP VP
+S -> NP ADVP VP
+S -> NP VP PUNC
+S -> S Conj S PUNC
+S -> PP NP VP PUNC
+S -> NP NP
+SQ -> VBP NP VP PUNC
+SQ -> VBZ NP ADJP PUNC
+FRAG -> Adv NP PUNC
+FRAG -> Adj NP PUNC
+
+#Phrase types
+VP -> VBP PP
+VP -> VBZ NP
+VP -> VBZ ADJP
+VP -> VBZ VP
+VP -> VB NP
+VP -> VBN PP
+VP -> VBN PRT PP
+VP -> VBP
+VP -> VBP ADJP
+VP -> VBP S 
+VP -> VBD SBAR
+VP -> VBG NP
+VP -> MD VP
+VP -> VB NP
+VP -> VBZ VBG ADVP
+VP -> VBD NP
+VP -> TO VP
+VP -> VB NP PP
+VP -> VP PP
+
+SBAR -> IN S
+
+Nom -> NN
+Nom -> NNS
+Nom -> NNP
+Nom -> NNPS
+
+Nom -> NN NN
+Nom -> NN PP VP
+
+Nom -> Nom Conj Nom
+
+Nom -> Nom PP
+Nom -> Nom NP
+Nom -> Adj Nom
+
+Nom -> Nom PP
+Nom -> ADJP Nom
+Nom -> NNS ADJP
+
+Nom -> PRP
+
+Quant -> Card NN
+
+NP -> Quant Nom
+NP -> Nom
+NP -> Det Nom
+NP -> Pos Nom
+NP -> Pro
+NP -> QP NN
+NP -> EX
+NP -> NNP
+
+PP -> Prep NP
+
+ADJP -> Adj PP
+ADJP -> Adj
+ADJP -> Adv Adj
+ADJP -> Adj PP
+ADJP -> Adj S
+
+ADVP -> Adv
+
+QP -> JJR IN Det
+
+
+#Word types
+Det -> 'The'
+Det -> 'the'
+Det -> 'A'
+Det -> 'a'
+Det -> 'An'
+Det -> 'an'
+Det -> 'that'
+Det -> 'those'
+Det -> 'Some'
+Det -> 'some'
+Det -> 'Few'
+Det -> 'Many'
+
+NN -> 'dog'
+NN -> 'cat'
+NN -> 'Set'
+NN -> 'place'
+NN -> 'master'
+NN -> 'game'
+NN -> 'set'
+NN -> 'sister'
+NN -> 'brother'
+NN -> 'doge'
+
+NNS -> 'dogs'
+NNS -> 'people'
+
+NNP -> 'Carl'
+NNP -> 'Sable'
+NNP -> 'Cooper'
+NNP -> 'Sarah'
+NNP -> 'Houston'
+NNP -> 'Databases'
+NNP -> 'Fall'
+
+VBZ -> 'Is'
+VBZ -> 'is'
+VBZ -> 'plays'
+
+VB -> 'have'
+VB -> 'be'
+VB -> 'think'
+VB -> 'play'
+
+VBP -> 'Do'
+VBP -> 'grow'
+VBP -> 'are'
+VBP -> 'Are'
+VBP -> 'consider'
+VBP -> 'am'
+
+VBN -> 'made'
+VBN -> 'determined'
+
+PRT -> 'up'
+
+VBD -> 'was'
+VBD -> 'chased'
+
+VBG -> 'lasting'
+VBG -> 'playing'
+VBG -> 'taking'
+
+Adj -> 'responsible'
+Adj -> 'Old'
+Adj -> 'important'
+Adj -> 'much'
+Adj -> 'many'
+Adj -> 'Many'
+Adj -> 'scary'
+Adj -> 'best'
+Adj -> 'hard'
+
+Adv -> 'finally'
+Adv -> 'normally'
+Adv -> 'Not'
+Adv -> 'very'
+Adv -> 'Such'
+Adv -> 'next'
+
+Prep -> 'for'
+Prep -> 'of'
+Prep -> 'by'
+Prep -> 'at'
+Prep -> 'in'
+Prep -> 'on'
+Prep -> 'to'
+Prep -> 'with'
+#Prep -> 'next'
+
+PRP -> 'it'
+
+JJR -> 'more'
+
+IN -> 'that'
+IN -> 'than'
+
+MD -> 'could'
+MD -> 'Could'
+
+EX -> 'There'
+
+TO -> 'to'
+
+Conj -> 'and'
+Conj -> 'or'
+
+Card -> '1'
+
+Pro -> 'you'
+Pro -> 'me'
+Pro -> 'I'
+
+Pos -> 'your'
+Pos -> 'her'
+Pos -> 'my'
+
+PUNC -> '.'
+PUNC -> '?'
+PUNC -> '!'

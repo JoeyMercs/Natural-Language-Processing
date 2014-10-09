@@ -1,0 +1,84 @@
+http://www.diotavelli.net/people/void/demos/cky.html
+
+S -> NP VP
+X1 -> Aux NP
+S -> X1 VP
+S -> VB NP
+S -> X2 PP
+S -> VB PP
+S -> VP PP
+S -> Aux VB
+S -> book
+S -> Book
+S -> include
+S -> prefer
+S -> Show
+S -> shot
+S -> have
+S -> book
+S -> Book
+S -> include
+S -> prefer
+S -> Show
+S -> shot
+S -> have
+NP -> Pos Nom
+NP -> Det Nom
+Nom -> Nom NN
+Nom -> Nom PP
+VP -> VB NP
+X2 -> VB NP
+VP -> X2 PP
+VP -> VB PP
+VP -> VP PP
+VP -> Aux VB
+PP -> Prep NP
+Det -> that
+Det -> this
+Det -> a
+Det -> an
+Det -> the
+NN -> book
+NN -> flight
+NN -> meal
+NN -> money
+NN -> elephant
+NN -> pajamas
+VB -> book
+VB -> Book
+VB -> include
+VB -> prefer
+VB -> Show
+VB -> shot
+VB -> have
+Pro -> I
+Pro -> she
+Pro -> me
+Pos -> my
+NNP -> Houston
+NNP -> TWA
+Aux -> Does
+Prep -> from
+Prep -> to
+Prep -> on
+Prep -> near
+Prep -> through
+Prep -> in
+VP -> book
+VP -> Book
+VP -> include
+VP -> prefer
+VP -> Show
+VP -> shot
+VP -> have
+Nom -> book
+Nom -> flight
+Nom -> meal
+Nom -> money
+Nom -> elephant
+Nom -> pajamas
+NP -> Houston
+NP -> TWA
+NP -> I
+NP -> she
+NP -> me

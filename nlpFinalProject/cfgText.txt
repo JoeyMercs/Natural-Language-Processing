@@ -1,0 +1,62 @@
+#Modified Textbook Example Grammar
+
+S -> NP VP
+S -> Aux NP VP
+S -> VP
+
+NP -> Pro
+NP -> Pos Nom
+NP -> NNP
+NP -> Det Nom
+
+Nom -> NN
+Nom -> Nom NN
+Nom -> Nom PP
+
+VP -> VB
+VP -> VB NP
+VP -> VB NP PP
+VP -> VB PP
+VP -> VP PP
+VP -> Aux VB
+
+PP -> Prep NP
+
+Det -> 'that'
+Det -> 'this'
+Det -> 'a'
+Det -> 'an'
+Det -> 'the'
+
+NN -> 'book'
+NN -> 'flight'
+NN -> 'meal'
+NN -> 'money'
+NN -> 'elephant'
+NN -> 'pajamas'
+
+VB -> 'book'
+VB -> 'Book'
+VB -> 'include'
+VB -> 'prefer'
+VB -> 'Show'
+VB -> 'shot'
+VB -> 'have'
+
+Pro -> 'I'
+Pro -> 'she'
+Pro -> 'me'
+
+Pos -> 'my'
+
+NNP -> 'Houston'
+NNP -> 'TWA'
+
+Aux -> 'Does'
+
+Prep -> 'from'
+Prep -> 'to'
+Prep -> 'on'
+Prep -> 'near'
+Prep -> 'through'
+Prep -> 'in'

@@ -1,0 +1,349 @@
+TOP -> X11 PUNC
+TOP -> X12 PUNC
+TOP -> X8 PUNC
+TOP -> X10 PUNC
+TOP -> NP VP
+TOP -> X1 VP
+TOP -> X2 PUNC
+TOP -> X4 PUNC
+TOP -> X6 PUNC
+TOP -> NP NP
+TOP -> VBP PP
+TOP -> VBZ NP
+TOP -> VBZ ADJP
+TOP -> VBZ VP
+TOP -> VB NP
+TOP -> VBN PP
+TOP -> X13 PP
+TOP -> VBP ADJP
+TOP -> VBP S
+TOP -> VBD SBAR
+TOP -> VBG NP
+TOP -> MD VP
+TOP -> VB NP
+TOP -> X14 ADVP
+TOP -> VBD NP
+TOP -> TO VP
+TOP -> X15 PP
+TOP -> VP PP
+TOP -> 'Do'
+TOP -> 'grow'
+TOP -> 'are'
+TOP -> 'Are'
+TOP -> 'consider'
+TOP -> 'am'
+TOP -> 'Do'
+TOP -> 'grow'
+TOP -> 'are'
+TOP -> 'Are'
+TOP -> 'consider'
+TOP -> 'am'
+TOP -> 'Do'
+TOP -> 'grow'
+TOP -> 'are'
+TOP -> 'Are'
+TOP -> 'consider'
+TOP -> 'am'
+TOP -> VBP PP
+TOP -> VBZ NP
+TOP -> VBZ ADJP
+TOP -> VBZ VP
+TOP -> VB NP
+TOP -> VBN PP
+TOP -> X13 PP
+TOP -> VBP ADJP
+TOP -> VBP S
+TOP -> VBD SBAR
+TOP -> VBG NP
+TOP -> MD VP
+TOP -> VB NP
+TOP -> X14 ADVP
+TOP -> VBD NP
+TOP -> TO VP
+TOP -> X15 PP
+TOP -> VP PP
+TOP -> 'Do'
+TOP -> 'grow'
+TOP -> 'are'
+TOP -> 'Are'
+TOP -> 'consider'
+TOP -> 'am'
+TOP -> 'Do'
+TOP -> 'grow'
+TOP -> 'are'
+TOP -> 'Are'
+TOP -> 'consider'
+TOP -> 'am'
+S -> NP VP
+X1 -> NP ADVP
+S -> X1 VP
+X2 -> NP VP
+S -> X2 PUNC
+X3 -> S Conj
+X4 -> X3 S
+S -> X4 PUNC
+X5 -> PP NP
+X6 -> X5 VP
+S -> X6 PUNC
+S -> NP NP
+X7 -> VBP NP
+X8 -> X7 VP
+SQ -> X8 PUNC
+X9 -> VBZ NP
+X10 -> X9 ADJP
+SQ -> X10 PUNC
+X11 -> Adv NP
+FRAG -> X11 PUNC
+X12 -> Adj NP
+FRAG -> X12 PUNC
+VP -> VBP PP
+VP -> VBZ NP
+VP -> VBZ ADJP
+VP -> VBZ VP
+VP -> VB NP
+VP -> VBN PP
+X13 -> VBN PRT
+VP -> X13 PP
+VP -> VBP ADJP
+VP -> VBP S
+VP -> VBD SBAR
+VP -> VBG NP
+VP -> MD VP
+VP -> VB NP
+X14 -> VBZ VBG
+VP -> X14 ADVP
+VP -> VBD NP
+VP -> TO VP
+X15 -> VB NP
+VP -> X15 PP
+VP -> VP PP
+SBAR -> IN S
+Nom -> NN NN
+X16 -> NN PP
+Nom -> X16 VP
+X17 -> Nom Conj
+Nom -> X17 Nom
+Nom -> Nom PP
+Nom -> Nom NP
+Nom -> Adj Nom
+Nom -> Nom PP
+Nom -> ADJP Nom
+Nom -> NNS ADJP
+Quant -> Card NN
+NP -> Quant Nom
+NP -> Det Nom
+NP -> Pos Nom
+NP -> QP NN
+PP -> Prep NP
+ADJP -> Adj PP
+ADJP -> Adv Adj
+ADJP -> Adj PP
+ADJP -> Adj S
+X18 -> JJR IN
+QP -> X18 Det
+Det -> 'The'
+Det -> 'the'
+Det -> 'A'
+Det -> 'a'
+Det -> 'An'
+Det -> 'an'
+Det -> 'that'
+Det -> 'those'
+Det -> 'Some'
+Det -> 'some'
+Det -> 'Few'
+Det -> 'Many'
+NN -> 'dog'
+NN -> 'cat'
+NN -> 'Set'
+NN -> 'place'
+NN -> 'master'
+NN -> 'game'
+NN -> 'set'
+NN -> 'sister'
+NN -> 'brother'
+NN -> 'doge'
+NNS -> 'dogs'
+NNS -> 'people'
+NNP -> 'Carl'
+NNP -> 'Sable'
+NNP -> 'Cooper'
+NNP -> 'Sarah'
+NNP -> 'Houston'
+NNP -> 'Databases'
+NNP -> 'Fall'
+VBZ -> 'Is'
+VBZ -> 'is'
+VBZ -> 'plays'
+VB -> 'have'
+VB -> 'be'
+VB -> 'think'
+VB -> 'play'
+VBP -> 'Do'
+VBP -> 'grow'
+VBP -> 'are'
+VBP -> 'Are'
+VBP -> 'consider'
+VBP -> 'am'
+VBN -> 'made'
+VBN -> 'determined'
+PRT -> 'up'
+VBD -> 'was'
+VBD -> 'chased'
+VBG -> 'lasting'
+VBG -> 'playing'
+VBG -> 'taking'
+Adj -> 'responsible'
+Adj -> 'Old'
+Adj -> 'important'
+Adj -> 'much'
+Adj -> 'many'
+Adj -> 'Many'
+Adj -> 'scary'
+Adj -> 'best'
+Adj -> 'hard'
+Adv -> 'finally'
+Adv -> 'normally'
+Adv -> 'Not'
+Adv -> 'very'
+Adv -> 'Such'
+Adv -> 'next'
+Prep -> 'for'
+Prep -> 'of'
+Prep -> 'by'
+Prep -> 'at'
+Prep -> 'in'
+Prep -> 'on'
+Prep -> 'to'
+Prep -> 'with'
+PRP -> 'it'
+JJR -> 'more'
+IN -> 'that'
+IN -> 'than'
+MD -> 'could'
+MD -> 'Could'
+EX -> 'There'
+TO -> 'to'
+Conj -> 'and'
+Conj -> 'or'
+Card -> '1'
+Pro -> 'you'
+Pro -> 'me'
+Pro -> 'I'
+Pos -> 'your'
+Pos -> 'her'
+Pos -> 'my'
+PUNC -> '.'
+PUNC -> '?'
+PUNC -> '!'
+ADVP -> 'finally'
+ADVP -> 'normally'
+ADVP -> 'Not'
+ADVP -> 'very'
+ADVP -> 'Such'
+ADVP -> 'next'
+ADJP -> 'responsible'
+ADJP -> 'Old'
+ADJP -> 'important'
+ADJP -> 'much'
+ADJP -> 'many'
+ADJP -> 'Many'
+ADJP -> 'scary'
+ADJP -> 'best'
+ADJP -> 'hard'
+NP -> 'Carl'
+NP -> 'Sable'
+NP -> 'Cooper'
+NP -> 'Sarah'
+NP -> 'Houston'
+NP -> 'Databases'
+NP -> 'Fall'
+NP -> 'There'
+NP -> 'you'
+NP -> 'me'
+NP -> 'I'
+NP -> NN NN
+NP -> X16 VP
+NP -> X17 Nom
+NP -> Nom PP
+NP -> Nom NP
+NP -> Adj Nom
+NP -> Nom PP
+NP -> ADJP Nom
+NP -> NNS ADJP
+NP -> 'it'
+NP -> 'Carl'
+NP -> 'Sable'
+NP -> 'Cooper'
+NP -> 'Sarah'
+NP -> 'Houston'
+NP -> 'Databases'
+NP -> 'Fall'
+NP -> 'dogs'
+NP -> 'people'
+NP -> 'dog'
+NP -> 'cat'
+NP -> 'Set'
+NP -> 'place'
+NP -> 'master'
+NP -> 'game'
+NP -> 'set'
+NP -> 'sister'
+NP -> 'brother'
+NP -> 'doge'
+Nom -> 'it'
+Nom -> 'Carl'
+Nom -> 'Sable'
+Nom -> 'Cooper'
+Nom -> 'Sarah'
+Nom -> 'Houston'
+Nom -> 'Databases'
+Nom -> 'Fall'
+Nom -> 'dogs'
+Nom -> 'people'
+Nom -> 'dog'
+Nom -> 'cat'
+Nom -> 'Set'
+Nom -> 'place'
+Nom -> 'master'
+Nom -> 'game'
+Nom -> 'set'
+Nom -> 'sister'
+Nom -> 'brother'
+Nom -> 'doge'
+VP -> 'Do'
+VP -> 'grow'
+VP -> 'are'
+VP -> 'Are'
+VP -> 'consider'
+VP -> 'am'
+S -> VBP PP
+S -> VBZ NP
+S -> VBZ ADJP
+S -> VBZ VP
+S -> VB NP
+S -> VBN PP
+S -> X13 PP
+S -> VBP ADJP
+S -> VBP S
+S -> VBD SBAR
+S -> VBG NP
+S -> MD VP
+S -> VB NP
+S -> X14 ADVP
+S -> VBD NP
+S -> TO VP
+S -> X15 PP
+S -> VP PP
+S -> 'Do'
+S -> 'grow'
+S -> 'are'
+S -> 'Are'
+S -> 'consider'
+S -> 'am'
+S -> 'Do'
+S -> 'grow'
+S -> 'are'
+S -> 'Are'
+S -> 'consider'
+S -> 'am'
